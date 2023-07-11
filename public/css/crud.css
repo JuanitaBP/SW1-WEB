@@ -1,0 +1,60 @@
+.titulo {
+    font-size: 2rem;
+    color: #2f72ee;
+    text-align: center;
+  }
+  
+  .titulo:hover {
+    color: #B9BBBA;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .btn-futuristic {
+    background-color: #2f72ee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn-futuristic:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+  }
+  
+  .btn-futuristic:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(255, 38, 31, 0.3);
+  }
+  
+  
+  .table-container6 {
+    overflow-x: aurto;
+    border-radius: 15px;
+    background: #ffffff; 
+  }
+  
+  .table6 {
+    width: auto;
+    border-collapse: collapse;
+  }
+  
+  .table6 th,
+  .table6 td {
+    padding: 1px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .table-container6 {
+      overflow-x: scroll;
+    }
+  }
+  
+  

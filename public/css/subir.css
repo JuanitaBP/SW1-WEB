@@ -1,0 +1,164 @@
+.custom-input-file {
+    background-color: #5568f7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+}
+
+.custom-evento {
+    background-color: #e3e6fc;
+    color: #020202;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 220px;
+}
+.custom-evento .input-file {
+    border: 200px;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    width: auto;
+}
+.custom-input-file .input-file {
+    border: 200px;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    width: auto;
+}
+
+.custom-input-file .input-file {
+    border: 200px;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+}
+
+.imgcircle {
+    height:80px; 
+    width:80px; 
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+} 
+
+.custom-input-file3 {
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    width: 90px;
+
+}
+
+.custom-input-file3 .input-file3 {
+    border: 200px;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+}
+
+
+/* reconocimiento facial */
+
+#imgViewer,
+#imgViewer2 {
+    background-color:black;
+
+}
+
+
+.loader {
+    top: 20%;
+    left: 40%;
+    display: none;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: absolute;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#overlayCanvas {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+
+
+
